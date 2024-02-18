@@ -126,4 +126,77 @@ header .btn {
   #beautiful .imgbox img {
     padding-left: 30px;
   }
+}
+
+#thehome {
+  padding: 90px 0;
+  background-color: #f1f8f9;
+}
+#thehome .textbox h1 {
+  color: #36b3bd;
+  font-size: 60px;
+  font-weight: 700;
+  width: 60%;
+}
+#thehome .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#thehome .textbox .btn {
+  padding: 13px 30px;
+  background-color: #38b6c1;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#thehome .imgbox {
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  #thehome .col-md-6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #thehome .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #thehome .textbox h1 {
+    text-align: center;
+  }
+  #thehome .textbox h5 {
+    margin: 30px;
+    text-align: center;
+  }
+  #thehome .btn {
+    margin-bottom: 30px;
+  }
+  #thehome .imgbox {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #thehome .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #thehome .textbox h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  #thehome .textbox h5 {
+    font-size: 16px;
+    margin: 30px;
+    text-align: center;
+  }
+  #thehome .textbox .btn {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
