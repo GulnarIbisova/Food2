@@ -469,4 +469,65 @@ header .btn {
   #order .col-md-6 h2 {
     font-size: 16px;
   }
+}
+
+#callour {
+  background-color: #f1f8f9;
+}
+#callour .textbox h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #36b3bd;
+}
+#callour .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#callour .textbox .btn {
+  font-size: 20px;
+  color: white;
+  background-color: #38b6c1;
+  padding: 13px 34px;
+}
+@media screen and (max-width: 992px) {
+  #callour .col-md-6 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #callour .imgbox {
+    width: 70%;
+  }
+  #callour .textbox {
+    text-align: center;
+  }
+  #callour .textbox h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  #callour .textbox h5 {
+    margin: 25px 0;
+  }
+  #callour .btn {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #callour .col-md-6 {
+    width: 100%;
+  }
+  #callour .col-md-6 .textbox {
+    text-align: center;
+  }
+  #callour .col-md-6 h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  #callour .col-md-6 h5 {
+    margin: 25px 0;
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
