@@ -530,4 +530,63 @@ header .btn {
     margin: 25px 0;
     font-size: 16px;
   }
+}
+
+#local {
+  padding: 90px 0;
+}
+#local .box {
+  height: 100%;
+  background-color: #35b6c1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#local .textbox {
+  width: 100%;
+}
+#local .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  margin: 0 70px 0 40px;
+  line-height: 1.1;
+}
+#local .textbox span {
+  color: rgba(36, 102, 114, 0.5137254902);
+}
+#local .textbox .btn {
+  font-size: 22px;
+  color: #38b6c1;
+  background-color: white;
+  padding: 10px 30px;
+  margin: 30px 0 0 40px;
+}
+#local .imgbox {
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  #local .col-md-6 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #local .imgbox, #local .box {
+    width: 80%;
+  }
+  #local .box {
+    margin-top: 20px;
+    height: 400px;
+  }
+  #local .textbox h1 {
+    font-size: 40px;
+  }
+  #local .textbox .btn {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #local .box .textbox h1 {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
